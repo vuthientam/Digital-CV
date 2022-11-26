@@ -1,0 +1,222 @@
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  /* Thanh navbar */
+  .itsme {
+    display: none;
+  }
+  .sidebar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .nav-lylich {
+    border-right: solid 2px rgba(51, 51, 51, 0.27);
+  }
+  /* --------------------------------------------- */
+  /* Mục tiêu nghề nghiệp - thông tin cá nhân */
+  .target {
+    padding: 0;
+  }
+  .section-title-info {
+    margin: 0;
+    font-size: 25px;
+    padding: 30px 0;
+    font-weight: bold;
+  }
+  .target p {
+    margin: 0 10px;
+  }
+  /* Thong tin ca nhan  */
+  .personal-info {
+    padding: 0;
+  }
+  .person-info {
+    margin: 0;
+  }
+  .icon {
+    margin: 0;
+  }
+  /* Kỹ năn - kinh nghiệm - hoạt động - ngôn ngữ - sở thích */
+  #job-info {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* kinh nghiem */
+  .info-ex {
+    grid-template-rows: 0.5fr 1fr 1fr;
+  }
+  .info-ex h1 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    padding: 50px 0;
+  }
+  .info-ex i {
+    align-self: start;
+  }
+  .menu-ex1,
+  .menu-ex2 {
+    margin: 0 23px;
+  }
+  /* Hoạt Động */
+  .info-act {
+    grid-template-rows: 0.5fr 1fr 1fr;
+  }
+  .info-act h1 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    padding: 50px 0;
+  }
+  .info-act i {
+    align-self: start;
+    color: #199cdb;
+  }
+  .menu-act1,
+  .menu-act2 {
+    margin: 0 23px;
+  }
+  /* Học Vấn */
+  .info-learn {
+    grid-template-rows: 0.5fr 1fr 1fr;
+  }
+  .info-learn h1 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    padding: 50px 0;
+  }
+  .info-learn i {
+    align-self: start;
+    color: #199cdb;
+  }
+  .menu-learn1,
+  .menu-learn2 {
+    margin: 0 23px;
+  }
+  /* Kỹ năng */
+  .info-skill {
+    grid-template-rows: 0.5fr 1fr;
+  }
+  .info-skill h1 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    padding: 50px 0;
+    justify-self: center;
+  }
+  .info-skill i {
+    align-self: start;
+  }
+  /* Ngôn Ngữ */
+  .info-language {
+    grid-template-rows: 0.5fr 1fr;
+  }
+  .info-language h1 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    padding: 50px 0;
+    justify-self: center;
+  }
+  .info-language i {
+    align-self: start;
+  }
+  /* sở thích */
+  .info-hobby {
+    grid-template-rows: 0.5fr 1fr;
+  }
+  .info-hobby h1 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    padding: 50px 0;
+    justify-self: center;
+  }
+  .info-hobby i {
+    align-self: start;
+  }
+  /* -----------Chứng Chỉ - Giải Thưởng ------ */
+  .award-1,
+  .award-2,
+  .award-3 {
+    display: block;
+  }
+  /* ---------------------------Digital CV ---------------------------------------------------- */
+  .grid-cv {
+    display: block;
+  }
+  .teams,
+  .timeline {
+    margin-left: 10px;
+  }
+  .primary {
+    margin-left: 10px;
+  }
+  .goal1 {
+    display: block;
+  }
+  .goal3 {
+    padding-bottom: 20px;
+  }
+  .goal1 i {
+    font-size: 30px;
+    padding: 0;
+    margin: 20px 48%;
+  }
+  .goal1 div {
+    margin: 0 20px;
+    border-bottom: solid 1px rgb(104, 102, 102);
+  }
+  /* scope */
+  .scopeInOut {
+    display: block;
+  }
+  .scopeOut {
+    padding-bottom: 20px;
+  }
+  /* team */
+  .member {
+    display: block;
+  }
+  .member i {
+    font-size: 30px;
+    padding: 0;
+    margin: 20px 48%;
+  }
+  .member div {
+    margin: 0 20px;
+  }
+  .member4 div {
+    padding-bottom: 20px;
+  }
+  /* primary */
+  .primaryChung {
+    display: block;
+    margin-left: 20px;
+  }
+  .primaryChung i {
+    font-size: 30px;
+    padding: 0;
+    margin: 20px 48%;
+  }
+  .primaryChung p {
+    margin-bottom: 0;
+  }
+  .primary2 p {
+    padding-bottom: 20px;
+  }
+  /* timeline */
+  .timelineChung {
+    display: block;
+  }
+  .number-timeline {
+    width: 8%;
+  }
+  .number-timeline p {
+    padding: 0 33%;
+  }
+  .project-timeline {
+    margin: 0 20px;
+  }
+  .time7 {
+    padding: 20px 0;
+  }
+}
